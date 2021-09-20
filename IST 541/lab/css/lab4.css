@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color:#F9B7A8;
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  #7692BE; 
+	color:  #FFFFFF; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: #9EC2ED; 
+	color: #FFFFFF; 
+}
+h1 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color: #000000;
+	font-size: 300%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+	color: #FFFFFF;
+	font-size: 200%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+
+
