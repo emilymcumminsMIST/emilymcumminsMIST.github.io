@@ -18,3 +18,23 @@ border: black 5px solid;
 .choices {
 cursor: pointer;
 }
+
+body {
+	text-align: center;
+	background-color: #B2986A; 
+	font-size: 75%
+}
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: #EF9007; 
+	color: #FFFFFF; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: #F8D49C; 
+	color: #FFFFFF; 
+}
+
