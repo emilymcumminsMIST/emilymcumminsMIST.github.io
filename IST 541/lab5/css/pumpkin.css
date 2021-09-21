@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #multiplepumpkins {
+border: black 5px solid;
+}
+ 
+#pumpkin-seeds-main {
+	display: none;
+	border: black 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}

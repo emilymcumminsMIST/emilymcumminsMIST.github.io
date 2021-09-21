@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/pumpkin.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$( function(){
+	$("#multiplepumpkins").mouseenter( function(){
+	$("#pumpkin-seeds-main").css("display","inline");
+	$("#pumpkin-pumpkin-seeds-main ").css("display","none");
+	$("#answer").html("<h2>Pumpkin seeds!</h2>");
+	
+$("#multiplepumpkins").mouseleave( function(){
+	$("#pumpkin-seeds-main").css("display","inline");
+	$("#pumpkin-seeds-main").css("display","none");
+	$("#answer").html("");
+});
+
+});
+});
+</script>
+
+
+</head>
+
+<body>
+<div id="wrapper">
+ 
+<h1>If you carve a pumpkin, what will you see inside?</h1>
+ 
+<h3 id="hint">Hint: Hover over the image below to find out!</h3>
+ 
+<img id="multiplepumpkins"   src="img/multiplepumpkins.jpeg" width="500" height="350" alt=""/>
+ 
+<img id="pumpkin-seeds-main" src="img/pumpkin-seeds-main.jpeg" width="500" height="350" alt=""/>
+
+<div id="answer"></div>  
+<!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+</body>
+</html>

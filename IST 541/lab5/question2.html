@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2</title>
+<link href="css/pumpkin.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+<script>
+$( function(){
+	
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:red'> They may seem like vegetables, but they are not. </h2>");
+                  $("#pumpkin-seeds-main").css("display","none");
+});
+	
+	$("#option2").click( function(){
+          $("#feedback").html("<h2 style='color:red'> Grains are things like Oats, Bread, Rice, and Pasta. </h2>");
+				$("#pumpkin-seeds-main").css("display","none");
+	});
+	
+		$("#option3").click( function(){
+               $("#feedback").html("<h2 style='color:green'> Correct! They are a part of the Fruits food group.  </h2>");
+                        $("#pumpkin-seeds-main").css("display","inline");
+			});
+	
+	$("#option4").click( function(){
+          $("#feedback").html("<h2 style='color:red'> Proteins are things like Meat, Eggs, Beans, and Nuts. </h2>");
+				$("#pumpkin-seeds-main").css("display","none");
+	});
+});
+</script>
+	
+</head>
+
+<body>
+<div id="wrapper">
+<h1>Pumpkins are in which of the following food group?</h1>
+<h3>Click on one of the following choices</h3>
+ 
+<h2 id="option1" class="choices"> Vegetables </h2>
+<h2 id="option2" class="choices"> Grains </h2>
+<h2 id="option3" class="choices"> Fruits </h2>
+<h2 id="option4" class="choices"> Proteins </h2>
+ 
+<div id="feedback"></div>
+<img id="pumpkin-seeds-main" src="img/pumpkin-seeds-main.jpeg" width="500" height="350" alt=""/>
+</div>
+
+</body>
+</html>
