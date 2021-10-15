@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color:#9CCCEC;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 { 
+	text-align:center; 
+	font-size: 42px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	/* centers h1 and h2 content */
+}
+
+a {
+	padding: 15px;
+    margin: 10px;
+	font-size: 125%;
+	background-color: #FFFFFF; 
+	color:#000000; 
+}
+
+a:hover {
+	font-size:150%;
+	background-color: #5987D1; 
+	color: #FFFFFF; 
+}
+
+h2 { 
+	text-align:center; 
+	font-size: 24px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	/* centers h1 and h2 content */
+}
+
+h3 { 
+	text-align:center; 
+	font-size: 24px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+	/* centers h1 and h2 content */
+}
+
+.choices {
+cursor: pointer;
+}
+
+#wrapper {
+	width:50px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+.stepTitle{
+	padding:5px;
+	color: #000000
+	text-align :left;
+	font-size:24px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	background-color:#F8EE53
+}
+
+.stepContent{ 
+	background-color: white;
+	padding:50px;
+	font-size: 24px
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	display: flex;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:10px;
+	font-size: 20px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}

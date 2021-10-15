@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>What's the Weather?</title>
+<link href="css/weather.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+$( function(){
+	
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:red'> Incorrect. It may look like it is sunny, but the cloud indicates that it is cloudy. </h2>");
+                  $("#cloudysky").css("display","none");
+});
+	
+	$("#option2").click( function(){
+          $("#feedback").html("<h2 style='color:red'> Incorrect. Water droplets mean that it is raining. </h2>");
+				$("#cloudysky").css("display","none");
+	});
+	
+		$("#option3").click( function(){
+               $("#feedback").html("<h2 style='color:green'> Correct! It means that it is cloudy.  </h2>");
+                        $("#cloudysky").css("display","inline");
+			});
+	
+	$("#option4").click( function(){
+          $("#feedback").html("<h2 style='color:red'> Incorrect </h2>");
+				$("#cloudysky").css("display","none");
+	});
+});
+</script>
+	
+</head>
+
+<body>
+<h1>Today's Weather</h1>
+	
+	<a href="index.html"> Home </a>
+	<a href="page2.html"> Thermometers </a>
+	<a href="page3.html"> Weather </a>
+	<a href="page4.html"> Icons </a>
+	<a href="page5.html"> Quiz </a>
+	<a href="page6.html"> Resources </a>
+		
+ 
+<h2>1. What does this weather icon mean?</h2>
+ 
+<img src="img/cloudy.png" width="312" height="312" alt=""/> 
+
+
+<h2>Click on one of the following choices</h2>
+ 
+<h2 id="option1" class="choices"> Sunny </h2>
+<h2 id="option2" class="choices"> Rainy </h2>
+<h2 id="option3" class="choices"> Cloudy </h2>
+<h2 id="option4" class="choices"> None of the above </h2>
+ 
+<div id="feedback"></div>
+	
+<br/>
+<br/>
+<br/>
+
+<script>
+$( function(){
+	
+	$("#option5").click( function(){
+         $("#feedback2").html("<h3 style='color:red'> Incorrect </h3>");
+});
+	
+	$("#option6").click( function(){
+          $("#feedback2").html("<h3 style='color:red'> Incorrect </h3>");
+	});
+	
+		$("#option7").click( function(){
+               $("#feedback2").html("<h3 style='color:green'> Correct! </h3>");
+			});
+	
+	$("#option8").click( function(){
+          $("#feedback2").html("<h3 style='color:red'> Incorrect </h3>");
+	});
+});
+</script>
+	
+<h2>2. What temperature (in Farenheit) do these thermometers display?</h2>
+	
+<img src="img/thermometers.jpg" width="312" height="312" alt=""/>
+	
+<h3>Click on one of the following choices</h3>
+ 
+<h3 id="option5" class="choices"> 82 and 25 degrees </h3>
+<h3 id="option6" class="choices"> 30 and -8 degrees </h3>
+<h3 id="option7" class="choices"> 90 and 20 degrees </h3>
+<h3 id="option8" class="choices"> 90 and -8 degrees </h3>
+	
+<div id="feedback2"></div>
+</body>
+</html>
